@@ -1,0 +1,59 @@
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: 'Comic Sans', 'Courier New', 'Monospace';
+    text-align: center;
+}
+
+.darkcolor{
+    background-color: rgb(103, 103, 192) !important;
+}
+
+.final{
+    background-color: azure;
+    border: 2px dashed darkgrey;
+}
+
+.header{
+    top: 100px;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+.mainbody{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.right{
+    right: 5px;
+    float: inline-start;
+}
+
+.footer{
+    font-size: small;
+    height: 36px;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    background-color: azure;
+    right: 0px;
+    left: 0px;
+    border-style: solid;
+}
+
+img{
+    border: groove rgb(51, 59, 153);
+    padding: 2px;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
